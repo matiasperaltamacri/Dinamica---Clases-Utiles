@@ -1,0 +1,24 @@
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,14,255,1) 100%);
+}
+.row{
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+}
+.logo{
+    width: 300px;
+}
+.logo:hover{
+    width: 310px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+hr{
+    color: white;
+    width: 450px;
+    margin: auto;
+}

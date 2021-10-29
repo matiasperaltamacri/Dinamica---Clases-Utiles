@@ -1,0 +1,42 @@
+body{
+    background-color: #bbcbfbbd;
+    /* color: #fff; */
+}
+
+.navbar-dark .navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    border-right: 1px dotted #76adffd1;
+    padding: 0 15px;
+}
+
+.bienvenida{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main.container {
+    margin-top: 70px;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.incisoEj{
+    color: #ffc1ae;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.italica{
+    font-style: italic;
+    color: #fbf399;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+body{
+    background-image: url("../img/back-fb.jpg");
+    background-size: cover;
+}
+.card{
+    display: flex;
+    height: 300px;
+    align-self: stretch;
+    margin: auto;
+}
+.card img{
+    margin: auto;
+    width: 300px;
+}
+.card-body{
+    text-align: center;
+}

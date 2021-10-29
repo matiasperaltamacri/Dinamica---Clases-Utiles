@@ -1,0 +1,36 @@
+body{
+    background-image: url("../img/fondo-gmail.jpg");
+    background-size: cover;
+}
+.card{
+    
+    display: flex;
+    height: 300px;
+    align-self: stretch;
+    margin: auto;
+}
+.card img{
+    margin: auto;
+    width: 300px;
+}
+.card-body{
+    text-align: center;
+}
+#profile{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,190,138,1) 50%);
+    width: 580px;
+    height: 240px;
+    border: 1px solid black;
+    display: flex;
+}
+.table{
+    background-color: white;
+}
+.row{
+    margin:auto;
+}
+.container a{
+    font-size: 18px;
+    margin: 15px 0; 
+    display: block;
+}

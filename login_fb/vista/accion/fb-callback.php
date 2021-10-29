@@ -72,9 +72,9 @@ if (count($usuarioExiste) > 0) { // si existe el usuario en la bd
     foreach ($colPublicacionMsj as $publicacion) {
         $respuestaAbm = $objPub->alta($publicacion); // alta de publicacion (actualizacion)
         if ($respuestaAbm) {
-            echo "<p>PUBLICACION INSERTADA</p>";
+            // echo "<p>PUBLICACION INSERTADA</p>";
         } else {
-            echo "<p>PUBLICACION NO INSERTADA</p>";
+            // echo "<p>PUBLICACION NO INSERTADA</p>";
         }
     }
 
@@ -109,19 +109,19 @@ if (count($usuarioExiste) > 0) { // si existe el usuario en la bd
             foreach ($colPublicacionMsj as $publicacion) {
                 $respuestaAbm = $objPub->alta($publicacion); // alta de publicacion
                 if ($respuestaAbm) {
-                    echo "<p>PUBLICACION INSERTADA</p>";
+                    // echo "<p>PUBLICACION INSERTADA</p>";
                 } else {
-                    echo "<p>PUBLICACION NO INSERTADA</p>";
+                    // echo "<p>PUBLICACION NO INSERTADA</p>";
                 }
             }
 
         } else {
-            echo "NO SE ENCONTRO ID USUARIO (-1)";
+            // echo "NO SE ENCONTRO ID USUARIO (-1)";
         }
 
-        echo "<p> USUARIO INSERTADO </p>";
+        // echo "<p> USUARIO INSERTADO </p>";
     } else {
-        echo "<p> ERROR INSERCION </p>";
+        // echo "<p> ERROR INSERCION </p>";
         // Error insercion
     }
 }

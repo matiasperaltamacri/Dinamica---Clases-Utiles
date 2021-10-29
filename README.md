@@ -2,7 +2,7 @@
 
 ## Notas:
     - Ubicar dentro de la raíz (htdocs), sólo la carpeta llamada "login_fb".
-    - El .sql para la bd, se encuentra dentro del proyecto. Debe crear la base con nombre "interaccion" e importar el .sql.
+    - El .sql para la bd, se encuentra dentro del proyecto. Puede importar directamente el .sql para crear la bd llamada "interaccion".
 
 ### Descarga e instalacion de API de google
 - Instalar composer: https://getcomposer.org/Composer-Setup.exe

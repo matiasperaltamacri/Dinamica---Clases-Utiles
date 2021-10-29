@@ -8,10 +8,6 @@ if ($estructuraAMostrar == "desdeVista") {
     echo "<link rel='stylesheet' href='css/bootstrap/bootstrap.min.css'>";
     echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>';
     echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>';
-    echo "<link rel='preconnect' href='https://fonts.googleapis.com'>";
-    echo "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>";
-    echo "<link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet'>";
-    // echo "<link rel='stylesheet' href='css/gral.css'>";
     echo '<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
@@ -26,10 +22,6 @@ if ($estructuraAMostrar == "desdeAccion") {
     include_once("../../configuracion.php");
     echo "<link rel='stylesheet' href='../css/bootstrap/bootstrap.css'>";
     echo "<link rel='stylesheet' href='../css/bootstrap/bootstrap.min.css'>";
-    echo "<link rel='preconnect' href='https://fonts.googleapis.com'>";
-    echo "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>";
-    echo "<link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet'>";
-    // echo "<link rel='stylesheet' href='../css/gral.css'>";
     echo '<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>

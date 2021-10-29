@@ -101,9 +101,6 @@ class abmUsuario
             $usuarioExiste = $this->buscar($nuevoArray); // verifico si la persona ya existe en la bd
             if ((count($usuarioExiste) > 0) and $elObjUsuario != null) {
                 $elObjUsuario->setId($usuarioExiste[0]->getId());
-                echo "<p>OBJ USUARIO</p><pre>";
-                print_r($elObjUsuario);
-                echo "<p>]]]]]]]]]]]]]]]</p><pre>";
                 if ($elObjUsuario->modificar()) {
                     $resp = true;
                 }
@@ -150,7 +147,6 @@ class abmUsuario
             }
 
         }
-        //print_r($where);
         $arreglo = Usuario::listar($where);
         return $arreglo;
 

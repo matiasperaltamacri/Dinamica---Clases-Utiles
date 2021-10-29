@@ -224,7 +224,6 @@ class Usuario
         $arreglo = array();
         $base = new BaseDatos();
         $sql = "SELECT * FROM usuario ";
-        //print_r($sql);
         if ($condicion != "") {
             $sql .= 'WHERE ' . $condicion;
         }

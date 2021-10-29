@@ -1,7 +1,7 @@
 # Dinamica---Clases-Utiles
 
 ## Notas:
-    - Ubicar dentro de la raíz (htdocs), sólo la carpeta llamada "fb_login".
+    - Ubicar dentro de la raíz (htdocs), sólo la carpeta llamada "login_fb".
     - El .sql para la bd, se encuentra dentro del proyecto. Debe crear la base con nombre "interaccion" e importar el .sql.
 
 ### Descarga e instalacion de API de google
